@@ -1,0 +1,21 @@
+# Klassdiagram för Personal Budget Tracker
+
+## Klass: Transaction
++ Description: string
++ Amount: decimal
++ Category: string
++ Date: string
++ ShowInfo(): void
+
+## Klass: BudgetManager
+- transactions: List<Transaction>
++ AddTransaction(description: string, amount: decimal, category: string, date: string): void
++ ShowAll(): void
++ CalculateBalance(): decimal
++ DeleteTransaction(index: int): void
++ ShowByCategory(category: string): void
++ ShowStatistics(): void
+
+## Klass: Program
++ Main(args: string[]): void
+

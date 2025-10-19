@@ -1,0 +1,54 @@
+# Flödesschema för Personal Budget Tracker
+
+Start
+  |
+[Visa meny: 1. Lägg till, 2. Visa alla, 3. Visa balans, 4. Ta bort, 5. Avsluta, 6. Visa per kategori, 7. Visa statistik]
+  |
+[Användaren gör ett val]
+  |
+  +--> [Val 1: Lägg till transaktion]
+  |      [Ange beskrivning]
+  |      [Ange belopp]
+  |      [Validera belopp (numeriskt)]
+  |      [Ange kategori]
+  |      [Ange datum]
+  |      [Anropa BudgetManager.AddTransaction()]
+  |        |
+  |        [Validera beskrivning (ej tom)]
+  |        [Validera kategori (ej tom)]
+  |        [Validera datum (ÅÅÅÅ-MM-DD)]
+  |        [Skapa Transaction-objekt och lägg till i listan]
+  |      [Visa bekräftelse]
+  |      [Tillbaka till meny]
+  |
+  +--> [Val 2: Visa alla transaktioner]
+  |      [Anropa BudgetManager.ShowAll()]
+  |      [Loopa igenom transactions och anropa ShowInfo()]
+  |      [Tillbaka till meny]
+  |
+  +--> [Val 3: Visa balans]
+  |      [Anropa BudgetManager.CalculateBalance()]
+  |      [Visa summa]
+  |      [Tillbaka till meny]
+  |
+  +--> [Val 4: Ta bort transaktion]
+  |      [Anropa BudgetManager.ShowAll()]
+  |      [Ange index att ta bort]
+  |      [Validera index]
+  |      [Anropa BudgetManager.DeleteTransaction()]
+  |      [Visa bekräftelse]
+  |      [Tillbaka till meny]
+  |
+  +--> [Val 5: Avsluta]
+  |      [Avsluta programmet]
+  |
+  +--> [Val 6: Visa per kategori]
+  |      [Ange kategori]
+  |      [Anropa BudgetManager.ShowByCategory()]
+  |      [Visa transaktioner för vald kategori]
+  |      [Tillbaka till meny]
+  |
+  +--> [Val 7: Visa statistik]
+         [Anropa BudgetManager.ShowStatistics()]
+         [Visa antal transaktioner, total inkomst, total utgift]
+         [Tillbaka till meny]

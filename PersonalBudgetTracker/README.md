@@ -1,0 +1,5 @@
+1. Hur hjälpte klasser och metoder dig att organisera programmet?
+Genom att använda klasser som Transaction och BudgetManager kunde jag separera ansvar: Transaction hanterar data för enskilda transaktioner, medan BudgetManager sköter listan och operationer som att lägga till, visa och ta bort. Metoder som AddTransaction, ShowAll och CalculateBalance gjorde koden modulär och återanvändbar. Flytten av AddTransaction till BudgetManager förbättrade inkapslingen, då all logik för att hantera transaktioner nu finns i en klass, vilket minskade beroendet i Program.cs och gjorde Main-metoden renare och fokuserad på användarinteraktion.
+
+3. Vilken del av projektet var mest utmanande?
+Den mest utmanande delen var att flytta och integrera valideringslogiken för AddTransaction till BudgetManager, samtidigt som jag behöll en del validering (t.ex. för belopp) i Program.cs för att hantera konsolinmatning effektivt. Det krävde noggrann testning för att säkerställa att valideringen fungerade sömlöst mellan klasserna, särskilt regex-valideringen för datumformatet, utan att skapa dubblering eller introducera buggar i flödet.
