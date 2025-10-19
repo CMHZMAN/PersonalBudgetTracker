@@ -1,0 +1,14 @@
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\bin\Debug\net9.0\PersonalBudgetTracker.exe
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\bin\Debug\net9.0\PersonalBudgetTracker.deps.json
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\bin\Debug\net9.0\PersonalBudgetTracker.runtimeconfig.json
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\bin\Debug\net9.0\PersonalBudgetTracker.dll
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\bin\Debug\net9.0\PersonalBudgetTracker.pdb
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.AssemblyInfoInputs.cache
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.AssemblyInfo.cs
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.dll
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\refint\PersonalBudgetTracker.dll
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.pdb
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\PersonalBudgetTracker.genruntimeconfig.cache
+C:\Users\famil\source\repos\PersonalBudgetTracker\PersonalBudgetTracker\obj\Debug\net9.0\ref\PersonalBudgetTracker.dll
